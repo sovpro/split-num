@@ -1,0 +1,21 @@
+{
+  "name": "@sovpro/split-num",
+  "version": "1.0.0",
+  "description": "Split an integer number into an array of digits",
+  "main": "split-num.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovpro/split-num.git"
+  },
+  "keywords": [
+    "split",
+    "number",
+    "array",
+    "digits"
+  ],
+  "author": "sovpro <its.so@outlook.com>",
+  "license": "MIT"
+}
