@@ -1,3 +1,4 @@
+"use strict";
 const splitNum = require ('./../')
 const assert = require ('assert')
 

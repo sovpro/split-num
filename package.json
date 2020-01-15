@@ -1,6 +1,6 @@
 {
   "name": "@sovpro/split-num",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Split an integer number into an array or iterator of digits",
   "main": "split-num.js",
   "scripts": {
@@ -17,5 +17,8 @@
     "digits"
   ],
   "author": "sovpro <its.so@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }

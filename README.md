@@ -2,7 +2,7 @@
 
 Split an integer number into an array or iterator of digits.
 
-[![Build status for Node.js 8.x and newer](https://github.com/sovpro/split-num/workflows/Node.js%208.x%20and%20newer%20/badge.svg?branch=master)](https://github.com/sovpro/split-num/commits/master)
+[![Build status for Node.js 4.x and newer](https://github.com/sovpro/split-num/workflows/Node.js%204.x%20and%20newer%20/badge.svg?branch=master)](https://github.com/sovpro/split-num/commits/master)
 
 ## Split into an array
 
