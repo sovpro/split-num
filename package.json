@@ -1,7 +1,7 @@
 {
   "name": "@sovpro/split-num",
-  "version": "1.0.3",
-  "description": "Split an integer number into an array or iterator of digits",
+  "version": "1.0.4",
+  "description": "Split an integer number into an array or iterable value of single-digit numbers",
   "main": "split-num.js",
   "scripts": {
     "test": "istanbul cover test"
