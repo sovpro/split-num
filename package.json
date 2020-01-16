@@ -1,10 +1,10 @@
 {
   "name": "@sovpro/split-num",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Split an integer number into an array or iterator of digits",
   "main": "split-num.js",
   "scripts": {
-    "test": "node test"
+    "test": "istanbul cover test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
