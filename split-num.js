@@ -9,6 +9,7 @@ const pow10s = new Array (
 function splitNum (value) {
   let num = Math.abs (value)
   if (isNaN (num)) return []
+  if (num === 0) return [0]
   let pow = Math.floor (Math.log10 (num))
   let fac ;
   let val ;
@@ -26,6 +27,7 @@ function splitNum (value) {
 function* splitLazy (value) {
   let num = Math.abs (value)
   if (isNaN (num)) return
+  if (num === 0) return (yield 0)
   let pow = Math.floor (Math.log10 (num))
   let fac ;
   let val ;

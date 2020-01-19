@@ -52,6 +52,12 @@ assertWithInfo (
 )
 
 assertWithInfo (
+    splitNum (0)
+  , [0]
+  , 'The result array for number zero should contain a single element with a number value of 0'
+)
+
+assertWithInfo (
     Array.from (splitNum.lazy (123))
   , [1, 2, 3]
   , 'The lazy result array for 123 should contain all digits'
@@ -81,4 +87,9 @@ assertWithInfo (
   , 'The lazy result array for a float number should contain all fixed digits'
 )
 
+assertWithInfo (
+    Array.from (splitNum.lazy (0))
+  , [0]
+  , 'The lazy result array for number zero should contain a single element with a number value of 0'
+)
 
