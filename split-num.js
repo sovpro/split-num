@@ -10,14 +10,14 @@ function splitNum (value) {
   let num = Math.abs (value)
   if (isNaN (num)) return []
   if (num === 0) return [0]
-  let pow = Math.floor (Math.log10 (num))
+  let pow = Math.trunc (Math.log10 (num))
   let fac ;
   let val ;
   let i = 0
   let split = new Array (pow + 1)
   while (pow >= 0) {
     fac = pow10s[pow--]
-    val = Math.floor (num / fac)
+    val = Math.trunc (num / fac)
     split[i++] = val
     num -= val * fac
   }
@@ -28,12 +28,12 @@ function* splitLazy (value) {
   let num = Math.abs (value)
   if (isNaN (num)) return
   if (num === 0) return (yield 0)
-  let pow = Math.floor (Math.log10 (num))
+  let pow = Math.trunc (Math.log10 (num))
   let fac ;
   let val ;
   while (pow >= 0) {
     fac = pow10s[pow--]
-    val = Math.floor (num / fac)
+    val = Math.trunc (num / fac)
     yield val
     num -= val * fac
   }
